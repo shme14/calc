@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Jamie's Calculator</title>
+</head>
+<body>
+    <div class="center">
+        <div id="calcBody">
+            <div id="screen" class="calcButtonStandard">0</div>
+            <div class="row">
+                <button id="clear" onclick="buttonPressed('clear')" class="calcButtonStandard">CLEAR</button>
+                <button id="delete" onclick="buttonPressed('delete')" class="calcButtonStandard">DELETE</button>
+            </div>
+            <div class="row">
+                <button id="7" onclick="buttonPressed(7)" class="calcButtonStandard">7</button>
+                <button id="8" onclick="buttonPressed(8)" class="calcButtonStandard">8</button>
+                <button id="9" onclick="buttonPressed(9)" class="calcButtonStandard">9</button>
+                <button id="divide" class="calcButtonStandard">/</button>
+            </div>
+            <div class="row">
+                <button id="4" onclick="buttonPressed(4)" class="calcButtonStandard">4</button>
+                <button id="5" onclick="buttonPressed(5)" class="calcButtonStandard">5</button>
+                <button id="6" onclick="buttonPressed(6)" class="calcButtonStandard">6</button>
+                <button id="multiple" class="calcButtonStandard">*</button>
+            </div>
+            <div class="row">
+                <button id="1" onclick="buttonPressed(1)" class="calcButtonStandard">1</button>
+                <button id="2" onclick="buttonPressed(2)" class="calcButtonStandard">2</button>
+                <button id="3" onclick="buttonPressed(3)" class="calcButtonStandard">3</button>
+                <button id="minus" class="calcButtonStandard">-</button>
+            </div>
+            <div class="row">
+                <button id="dot" onclick="buttonPressed('dot')" class="calcButtonStandard">.</button>
+                <button id="0" onclick="buttonPressed(0)" class="calcButtonStandard">0</button>
+                <button id="equal" onclick="buttonPressed('equal')" class="calcButtonStandard">=</button>
+                <button id="plus" onclick="buttonPressed('plus')" class="calcButtonStandard">+</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js.js"></script>
+</html>
